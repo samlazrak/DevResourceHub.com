@@ -83,7 +83,9 @@ const Layout = ({ children }) => (
           {children}
           <Footer>
             &copy; Forever by Sam Lazrak. All rights reserved. <br/>
-            <a href="https://github.com/samlazrak">My GitHub</a> <br/>
+            <a href="https://samlazrak.com">Portfolio</a> <br/>
+            <a href="https://github.com/samlazrak">Github</a> <br/>
+            <a href="https://www.linkedin.com/in/samlazrak/">Linkedin</a> <br/>
             <span>Last build: {data.site.buildTime}</span>
           </Footer>;
         </React.Fragment>
